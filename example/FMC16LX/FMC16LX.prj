@@ -1,0 +1,397 @@
+[Version]
+DLLVer=02.3003.00.1
+PRJVer=1
+
+[PRJKIND]
+mode=1
+
+[CPUTYPE]
+CpuSerise=907
+
+[DirInfo]
+PRJ=D:\RS_SVN\Source\RS-KERNEL\Trunk\example\FMC16LX\
+
+[PrjInfo]
+Count=1
+PrjInfo-0=Debug
+Active=Debug
+
+[MEMBER]
+F0=21
+F1=0 f Source Files
+F2=0 c app_main.c
+F3=0 a mb90560.asm
+F4=0 a START.ASM
+F5=0 f Source Files\RS-KERNEL
+F6=0 a ..\..\arch\FMC16LX\src\context.asm
+F7=0 c ..\..\driver\device.c
+F8=0 c ..\..\ipc\event.c
+F9=0 c ..\..\kernel\Ints.c
+F10=0 c ..\..\ipc\mailbox.c
+F11=0 c ..\..\arch\FMC16LX\src\misc.c
+F12=0 c ..\..\mm\mpool.c
+F13=0 c ..\..\ipc\mutex.c
+F14=0 c ..\..\ipc\queue.c
+F15=0 c ..\..\kernel\sched.c
+F16=0 c ..\..\ipc\sem.c
+F17=0 c ..\..\ipc\semb.c
+F18=0 c ..\..\kernel\task.c
+F19=0 c ..\..\kernel\timer.c
+F20=0 c ..\..\arch\FMC16LX\src\trace.c
+F21=0 f Include Files
+
+[OPTIONFILE]
+FILE=FMC16LX.dat
+
+[CPUTYPE-Debug]
+CpuName=MB90F562B
+Count=0
+
+[DirInfo-Debug]
+CONFIG=Debug\
+OBJ=Debug\OBJ\
+LST=Debug\LST\
+OPT=Debug\OPT\
+
+[MEMBER-Debug]
+F0=19
+F1=0 m 1 Debug\ABS\FMC16LX.abs
+F2=18 c 1 ..\..\arch\FMC16LX\src\misc.c
+F2-1=- ../../\inc\kdefine.h
+F2-2=- ../../\arch/\arch.h
+F2-3=- ../../\example/fmc16lx/\mb90560.h
+F2-4=- ../../\example/fmc16lx/\config.h
+F2-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F2-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F2-7=- ../../\arch/\types.h
+F2-8=- ../../\arch/fmc16lx/inc/\intr.h
+F2-9=- ../../\arch/fmc16lx/inc/\trace.h
+F2-10=- ../../\inc/\const.h
+F2-11=- ../../\inc/\cque.h
+F2-12=- ../../\inc/\kernel.h
+F2-13=- ../../\inc/\memory.h
+F2-14=- ../../\inc/\ipc.h
+F2-15=- ../../\inc/\device.h
+F2-16=- ../../\inc/\kapi.h
+F2-17=- ../../\shell/\shell.h
+F2-18=- ../../\driver/\driver.h
+F3=18 c 1 ..\..\arch\FMC16LX\src\trace.c
+F3-1=- ../../\inc\kdefine.h
+F3-2=- ../../\arch/\arch.h
+F3-3=- ../../\example/fmc16lx/\mb90560.h
+F3-4=- ../../\example/fmc16lx/\config.h
+F3-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F3-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F3-7=- ../../\arch/\types.h
+F3-8=- ../../\arch/fmc16lx/inc/\intr.h
+F3-9=- ../../\arch/fmc16lx/inc/\trace.h
+F3-10=- ../../\inc/\const.h
+F3-11=- ../../\inc/\cque.h
+F3-12=- ../../\inc/\kernel.h
+F3-13=- ../../\inc/\memory.h
+F3-14=- ../../\inc/\ipc.h
+F3-15=- ../../\inc/\device.h
+F3-16=- ../../\inc/\kapi.h
+F3-17=- ../../\shell/\shell.h
+F3-18=- ../../\driver/\driver.h
+F4=18 c 1 ..\..\ipc\event.c
+F4-1=- ../../\inc\kdefine.h
+F4-2=- ../../\arch/\arch.h
+F4-3=- ../../\example/fmc16lx/\mb90560.h
+F4-4=- ../../\example/fmc16lx/\config.h
+F4-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F4-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F4-7=- ../../\arch/\types.h
+F4-8=- ../../\arch/fmc16lx/inc/\intr.h
+F4-9=- ../../\arch/fmc16lx/inc/\trace.h
+F4-10=- ../../\inc/\const.h
+F4-11=- ../../\inc/\cque.h
+F4-12=- ../../\inc/\kernel.h
+F4-13=- ../../\inc/\memory.h
+F4-14=- ../../\inc/\ipc.h
+F4-15=- ../../\inc/\device.h
+F4-16=- ../../\inc/\kapi.h
+F4-17=- ../../\shell/\shell.h
+F4-18=- ../../\driver/\driver.h
+F5=18 c 1 ..\..\ipc\mailbox.c
+F5-1=- ../../\inc\kdefine.h
+F5-2=- ../../\arch/\arch.h
+F5-3=- ../../\example/fmc16lx/\mb90560.h
+F5-4=- ../../\example/fmc16lx/\config.h
+F5-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F5-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F5-7=- ../../\arch/\types.h
+F5-8=- ../../\arch/fmc16lx/inc/\intr.h
+F5-9=- ../../\arch/fmc16lx/inc/\trace.h
+F5-10=- ../../\inc/\const.h
+F5-11=- ../../\inc/\cque.h
+F5-12=- ../../\inc/\kernel.h
+F5-13=- ../../\inc/\memory.h
+F5-14=- ../../\inc/\ipc.h
+F5-15=- ../../\inc/\device.h
+F5-16=- ../../\inc/\kapi.h
+F5-17=- ../../\shell/\shell.h
+F5-18=- ../../\driver/\driver.h
+F6=18 c 1 ..\..\ipc\mutex.c
+F6-1=- ../../\inc\kdefine.h
+F6-2=- ../../\arch/\arch.h
+F6-3=- ../../\example/fmc16lx/\mb90560.h
+F6-4=- ../../\example/fmc16lx/\config.h
+F6-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F6-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F6-7=- ../../\arch/\types.h
+F6-8=- ../../\arch/fmc16lx/inc/\intr.h
+F6-9=- ../../\arch/fmc16lx/inc/\trace.h
+F6-10=- ../../\inc/\const.h
+F6-11=- ../../\inc/\cque.h
+F6-12=- ../../\inc/\kernel.h
+F6-13=- ../../\inc/\memory.h
+F6-14=- ../../\inc/\ipc.h
+F6-15=- ../../\inc/\device.h
+F6-16=- ../../\inc/\kapi.h
+F6-17=- ../../\shell/\shell.h
+F6-18=- ../../\driver/\driver.h
+F7=18 c 1 ..\..\ipc\sem.c
+F7-1=- ../../\inc\kdefine.h
+F7-2=- ../../\arch/\arch.h
+F7-3=- ../../\example/fmc16lx/\mb90560.h
+F7-4=- ../../\example/fmc16lx/\config.h
+F7-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F7-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F7-7=- ../../\arch/\types.h
+F7-8=- ../../\arch/fmc16lx/inc/\intr.h
+F7-9=- ../../\arch/fmc16lx/inc/\trace.h
+F7-10=- ../../\inc/\const.h
+F7-11=- ../../\inc/\cque.h
+F7-12=- ../../\inc/\kernel.h
+F7-13=- ../../\inc/\memory.h
+F7-14=- ../../\inc/\ipc.h
+F7-15=- ../../\inc/\device.h
+F7-16=- ../../\inc/\kapi.h
+F7-17=- ../../\shell/\shell.h
+F7-18=- ../../\driver/\driver.h
+F8=18 c 1 ..\..\ipc\semb.c
+F8-1=- ../../\inc\kdefine.h
+F8-2=- ../../\arch/\arch.h
+F8-3=- ../../\example/fmc16lx/\mb90560.h
+F8-4=- ../../\example/fmc16lx/\config.h
+F8-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F8-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F8-7=- ../../\arch/\types.h
+F8-8=- ../../\arch/fmc16lx/inc/\intr.h
+F8-9=- ../../\arch/fmc16lx/inc/\trace.h
+F8-10=- ../../\inc/\const.h
+F8-11=- ../../\inc/\cque.h
+F8-12=- ../../\inc/\kernel.h
+F8-13=- ../../\inc/\memory.h
+F8-14=- ../../\inc/\ipc.h
+F8-15=- ../../\inc/\device.h
+F8-16=- ../../\inc/\kapi.h
+F8-17=- ../../\shell/\shell.h
+F8-18=- ../../\driver/\driver.h
+F9=18 c 1 ..\..\kernel\Ints.c
+F9-1=- ../../\inc\kdefine.h
+F9-2=- ../../\arch/\arch.h
+F9-3=- ../../\example/fmc16lx/\mb90560.h
+F9-4=- ../../\example/fmc16lx/\config.h
+F9-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F9-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F9-7=- ../../\arch/\types.h
+F9-8=- ../../\arch/fmc16lx/inc/\intr.h
+F9-9=- ../../\arch/fmc16lx/inc/\trace.h
+F9-10=- ../../\inc/\const.h
+F9-11=- ../../\inc/\cque.h
+F9-12=- ../../\inc/\kernel.h
+F9-13=- ../../\inc/\memory.h
+F9-14=- ../../\inc/\ipc.h
+F9-15=- ../../\inc/\device.h
+F9-16=- ../../\inc/\kapi.h
+F9-17=- ../../\shell/\shell.h
+F9-18=- ../../\driver/\driver.h
+F10=18 c 1 ..\..\kernel\sched.c
+F10-1=- ../../\inc\kdefine.h
+F10-2=- ../../\arch/\arch.h
+F10-3=- ../../\example/fmc16lx/\mb90560.h
+F10-4=- ../../\example/fmc16lx/\config.h
+F10-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F10-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F10-7=- ../../\arch/\types.h
+F10-8=- ../../\arch/fmc16lx/inc/\intr.h
+F10-9=- ../../\arch/fmc16lx/inc/\trace.h
+F10-10=- ../../\inc/\const.h
+F10-11=- ../../\inc/\cque.h
+F10-12=- ../../\inc/\kernel.h
+F10-13=- ../../\inc/\memory.h
+F10-14=- ../../\inc/\ipc.h
+F10-15=- ../../\inc/\device.h
+F10-16=- ../../\inc/\kapi.h
+F10-17=- ../../\shell/\shell.h
+F10-18=- ../../\driver/\driver.h
+F11=18 c 1 ..\..\kernel\task.c
+F11-1=- ../../\inc\kdefine.h
+F11-2=- ../../\arch/\arch.h
+F11-3=- ../../\example/fmc16lx/\mb90560.h
+F11-4=- ../../\example/fmc16lx/\config.h
+F11-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F11-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F11-7=- ../../\arch/\types.h
+F11-8=- ../../\arch/fmc16lx/inc/\intr.h
+F11-9=- ../../\arch/fmc16lx/inc/\trace.h
+F11-10=- ../../\inc/\const.h
+F11-11=- ../../\inc/\cque.h
+F11-12=- ../../\inc/\kernel.h
+F11-13=- ../../\inc/\memory.h
+F11-14=- ../../\inc/\ipc.h
+F11-15=- ../../\inc/\device.h
+F11-16=- ../../\inc/\kapi.h
+F11-17=- ../../\shell/\shell.h
+F11-18=- ../../\driver/\driver.h
+F12=18 c 1 ..\..\kernel\timer.c
+F12-1=- ../../\inc\kdefine.h
+F12-2=- ../../\arch/\arch.h
+F12-3=- ../../\example/fmc16lx/\mb90560.h
+F12-4=- ../../\example/fmc16lx/\config.h
+F12-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F12-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F12-7=- ../../\arch/\types.h
+F12-8=- ../../\arch/fmc16lx/inc/\intr.h
+F12-9=- ../../\arch/fmc16lx/inc/\trace.h
+F12-10=- ../../\inc/\const.h
+F12-11=- ../../\inc/\cque.h
+F12-12=- ../../\inc/\kernel.h
+F12-13=- ../../\inc/\memory.h
+F12-14=- ../../\inc/\ipc.h
+F12-15=- ../../\inc/\device.h
+F12-16=- ../../\inc/\kapi.h
+F12-17=- ../../\shell/\shell.h
+F12-18=- ../../\driver/\driver.h
+F13=0 a 1 mb90560.asm
+F14=0 a 1 START.ASM
+F15=1 a 1 ..\..\arch\FMC16LX\src\context.asm
+F15-1=- ..\..\arch\FMC16LX\src\../inc/\mem_model.h
+F16=17 c 1 app_main.c
+F16-1=- ../../\inc\kdefine.h
+F16-2=- ../../\inc/\kapi.h
+F16-3=- ../../\arch/\arch.h
+F16-4=- ../../\example/fmc16lx/\mb90560.h
+F16-5=- ../../\example/fmc16lx/\config.h
+F16-6=- ../../\arch/fmc16lx/inc/\mem_model.h
+F16-7=- ../../\arch/fmc16lx/inc/\basetype.h
+F16-8=- ../../\arch/\types.h
+F16-9=- ../../\arch/fmc16lx/inc/\intr.h
+F16-10=- ../../\arch/fmc16lx/inc/\trace.h
+F16-11=- ../../\inc/\const.h
+F16-12=- ../../\inc/\cque.h
+F16-13=- ../../\inc/\kernel.h
+F16-14=- ../../\inc/\memory.h
+F16-15=- ../../\inc/\ipc.h
+F16-16=- ../../\inc/\device.h
+F16-17=- ../../\shell/\shell.h
+F17=18 c 1 ..\..\driver\device.c
+F17-1=- ../../\inc\kdefine.h
+F17-2=- ../../\arch/\arch.h
+F17-3=- ../../\example/fmc16lx/\mb90560.h
+F17-4=- ../../\example/fmc16lx/\config.h
+F17-5=- ../../\arch/fmc16lx/inc/\mem_model.h
+F17-6=- ../../\arch/fmc16lx/inc/\basetype.h
+F17-7=- ../../\arch/\types.h
+F17-8=- ../../\arch/fmc16lx/inc/\intr.h
+F17-9=- ../../\arch/fmc16lx/inc/\trace.h
+F17-10=- ../../\inc/\const.h
+F17-11=- ../../\inc/\cque.h
+F17-12=- ../../\inc/\kernel.h
+F17-13=- ../../\inc/\memory.h
+F17-14=- ../../\inc/\ipc.h
+F17-15=- ../../\inc/\device.h
+F17-16=- ../../\inc/\kapi.h
+F17-17=- ../../\shell/\shell.h
+F17-18=- ../../\driver/\driver.h
+F18=18 c 1 ..\..\ipc\queue.c
+F18-1=- ../../\arch/\arch.h
+F18-2=- ../../\example/fmc16lx/\mb90560.h
+F18-3=- ../../\example/fmc16lx/\config.h
+F18-4=- ../../\arch/fmc16lx/inc/\mem_model.h
+F18-5=- ../../\arch/fmc16lx/inc/\basetype.h
+F18-6=- ../../\arch/\types.h
+F18-7=- ../../\arch/fmc16lx/inc/\intr.h
+F18-8=- ../../\arch/fmc16lx/inc/\trace.h
+F18-9=- ../../\inc/\const.h
+F18-10=- ../../\inc/\cque.h
+F18-11=- ../../\inc/\kernel.h
+F18-12=- ../../\inc/\memory.h
+F18-13=- ../../\inc/\ipc.h
+F18-14=- ../../\inc/\device.h
+F18-15=- ../../\inc/\kapi.h
+F18-16=- ../../\shell/\shell.h
+F18-17=- ../../\inc\kdefine.h
+F18-18=- ../../\driver/\driver.h
+F19=18 c 1 ..\..\mm\mpool.c
+F19-1=- ../../\arch/\arch.h
+F19-2=- ../../\example/fmc16lx/\mb90560.h
+F19-3=- ../../\example/fmc16lx/\config.h
+F19-4=- ../../\arch/fmc16lx/inc/\mem_model.h
+F19-5=- ../../\arch/fmc16lx/inc/\basetype.h
+F19-6=- ../../\arch/\types.h
+F19-7=- ../../\arch/fmc16lx/inc/\intr.h
+F19-8=- ../../\arch/fmc16lx/inc/\trace.h
+F19-9=- ../../\inc/\const.h
+F19-10=- ../../\inc/\cque.h
+F19-11=- ../../\inc/\kernel.h
+F19-12=- ../../\inc/\memory.h
+F19-13=- ../../\inc/\ipc.h
+F19-14=- ../../\inc/\device.h
+F19-15=- ../../\inc/\kapi.h
+F19-16=- ../../\shell/\shell.h
+F19-17=- ../../\inc\kdefine.h
+F19-18=- ../../\driver/\driver.h
+
+[BUILDMODE-Debug]
+kernel=1
+
+[RUNSET-Debug]
+CONVERT=1
+CONVERTKIND=0
+
+[DebState-Debug]
+SupCount=1
+Supfile-0=Debug\FMC16LX.sup
+Current=FMC16LX.sup
+AliasFile=
+CPURunMode=16,16,16,16,0,1,0x0:0x0,,0,0xFF
+
+[AsmBefore]
+Count=0
+
+[AsmAfter]
+Count=0
+
+[CcBefore]
+Count=0
+
+[CcAfter]
+Count=0
+
+[LnkBefore]
+Count=0
+
+[LnkAfter]
+Count=0
+
+[LibBefore]
+Count=0
+
+[LibAfter]
+Count=0
+
+[CnvBefore]
+Count=0
+
+[CnvAfter]
+Count=0
+
+[ConfigBefore]
+Count=0
+
+[ConfigAfter]
+Count=0
+
